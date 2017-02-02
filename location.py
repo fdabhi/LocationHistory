@@ -22,12 +22,3 @@ counts = {}
 for i in tp:
     counts[i]=counts.get(i,0)+1
 print counts
-word = ""
-count = 0
-for k,v in counts.items():
-    if word =="" or v > count:
-        word = k
-        count = v
-
-
-print word ,count
